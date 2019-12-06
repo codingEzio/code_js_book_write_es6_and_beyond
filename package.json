@@ -1,0 +1,22 @@
+{
+  "name": "code_js_book_writing_modern_javascript_with_es5es6_beyond",
+  "version": "0.0.1",
+  "description": "reviewing JavaScript language",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingEzio/code_js_book_writing_modern_javascript_with_es5es6_beyond.git"
+  },
+  "keywords": [
+    "forfun"
+  ],
+  "author": "John Doe",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/codingEzio/code_js_book_writing_modern_javascript_with_es5es6_beyond/issues"
+  },
+  "homepage": "https://github.com/codingEzio/code_js_book_writing_modern_javascript_with_es5es6_beyond#readme"
+}
