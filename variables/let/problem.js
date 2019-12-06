@@ -1,10 +1,10 @@
 function getLowestPrice_var(item) {
-    var count = item.inventory;
-    var price = item.price;
+    const count = item.inventory;
+    let price = item.price;
 
     if (item.salePrice) {
-        var count = item.saleInventory;
-        if (count > 0) {
+        const saleCount = item.saleInventory;
+        if (saleCount > 0) {
             price = item.salePrice;
         }
     }
