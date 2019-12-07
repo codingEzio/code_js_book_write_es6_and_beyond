@@ -2,6 +2,10 @@
 // gc-ed after the closing `}`, whereas for the `var`, it
 // will be delete after the current function's `}`, aka "lexical".
 
+// References
+// ~ https://stackoverflow.com/q/48295265
+// ~ https://stackoverflow.com/a/56374199
+
 /* ----- ----- First example ----- ----- */
 
 var x = 'global';
