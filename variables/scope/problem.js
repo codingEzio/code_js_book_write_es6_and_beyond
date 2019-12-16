@@ -11,5 +11,5 @@ const example = [{}, {}];
 const clickSet = addClick(example);
 
 for (i of example) {
-    console.log(i.onClick()); // [0]: 2, [1]: 2 still
+    console.log(i.onClick()); // 2, 2
 }

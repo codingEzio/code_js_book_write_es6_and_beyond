@@ -16,9 +16,13 @@ function certainity_and_uncertainity() {
     // these two are definitely not going to change (for non-collection)
     const taxRate = 0.1;
     const shipping = 5.0;
-    // pragmatically    you might actually change that variable
+    // pragmatically    you might change the variable later
     // stylishly        you indicate this would|might change (uncertain)
     let total = 100 + 100 * taxRate + shipping;
+}
+
+function isNumber(value) {
+    return typeof value === 'number';
 }
 
 function avoid_mutations_with_const() {
@@ -27,9 +31,6 @@ function avoid_mutations_with_const() {
     but the value can be changed, like array, objs, other collections.
     */
     const an_array = [1, 2, 3];
-    function isNumber(value) {
-        return typeof value === 'number';
-    }
 
     // with mutations
     const val_mut = [];

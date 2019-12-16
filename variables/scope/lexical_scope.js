@@ -1,6 +1,6 @@
 // Simply put, variables defined by 'let', 'const' will be
-// gc-ed after the closing `}`, whereas for the `var`, it
-// will be delete after the current function's `}`, aka "lexical".
+// gc-ed after the closing `}`, whereas the `var`, it will
+// be deleted after the current function's `}`, aka "lexical".
 
 // References
 // ~ https://stackoverflow.com/q/48295265
