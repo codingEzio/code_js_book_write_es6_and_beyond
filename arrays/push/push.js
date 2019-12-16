@@ -35,13 +35,21 @@ function addFreeGift(cart) {
 function summarizeCart(cart) {
     /* An example of seemingly harmless mutation (the `addFreeGift` call) */
 
+    // A few days/months later, you might refactor this whole thing,
+    // for example starting with the declaration, once you move it
+    // to the top, all the other statments might/would be affected.
+    const cartWithReward = addFreeGift(cart);
+
+    // When you call a function (e.g. addFreeGift), "you" should trust
+    // that it won't change any supplied values, this kind of function
+    // is called "pure" functions. It's what you should strive to achieve.
     const discountable = cart.filter(item => item.discount);
+
     if (discountable.length > 1) {
         return {
             error: 'Can only have one discount',
         };
     }
-    const cartWithReward = addFreeGift(cart);
     return {
         discounts: discountable.length,
         items: cartWithReward.length,
