@@ -25,9 +25,9 @@ const reward = {
 function addFreeGift(cart) {
     /* Gift are given if items you buy is greater than two */
 
+    // Now this function is a "pure" one, no more side-effects!
     if (cart.length > 2) {
-        cart.push(reward);
-        return cart;
+        return [...cart, reward];
     }
     return cart;
 }
