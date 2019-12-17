@@ -39,14 +39,14 @@ employee2.name.fname = 'ghweq8';
 console.log(employee1.name === employee2.name);
 console.log(employee1.name === defaultEmployee.name);
 
-// A bit wordy, but deep-copy indeed
+// Seems nice, but still a shallow-copy
 const employee3 = Object.assign({}, defaultEmployee, {
     name: Object.assign({}, defaultEmployee.name),
 });
 
 employee3.name.fname = 'Test whether I would affect employee4';
 
-// A way better version of deep-copy
+// A better-looking version of shalow-copy
 const employee4 = {
     ...defaultEmployee,
     name: {
