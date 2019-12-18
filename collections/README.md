@@ -1,7 +1,10 @@
 ### References - segments you should care
-- [Map - on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+- [`Map` - on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
   1. Search *Objects and maps compared* for ***why use `Map`***
   2. Search *Usage notes* for ***mistakes you'll probably make***
+- [`Map` and `Set`](https://javascript.info/map-set)
+  1. [`Map` basics](https://javascript.info/map-set#map)
+  2. [`Set` basics](https://javascript.info/map-set#set)
 
 ### References
 
